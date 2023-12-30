@@ -1,0 +1,78 @@
+:toc:
+:sectnums:
+= Terminal 
+
+== tmux keyboard shortcuts
+
+=== Create a new tmux session
+
+tmux new-session -s session_name
+
+=== Detach a session
+
+Ctrl-b d
+
+=== Attach a session
+
+Example: tmux attach-session -t mysession or tmux attach-session -t 0 (if the session identifier is 0).
+
+
+== tmux Frequently Used Commands
+
+|===
+| Command | Description
+
+| `tmux`
+| Starts a new tmux session.
+
+| `Ctrl-b d`
+| Detaches from the current tmux session.
+
+| `tmux attach`
+| Attaches to the most recently used tmux session.
+
+| `tmux attach-session -t <session-name>`
+| Attaches to a specific tmux session with the given session name.
+
+| `Ctrl-b c`
+| Creates a new window within the current tmux session.
+
+| `Ctrl-b n`
+| Switches to the next window in the tmux session.
+
+| `Ctrl-b p`
+| Switches to the previous window in the tmux session.
+
+| `Ctrl-b ,`
+| Renames the current window.
+
+| `Ctrl-b %`
+| Splits the current pane vertically.
+
+| `Ctrl-b "`
+| Splits the current pane horizontally.
+
+| `Ctrl-b Arrow keys`
+| Switches between panes in the tmux session.
+
+| `Ctrl-b <resize-key>`
+| Resizes the current pane.
+
+| `Ctrl-b x`
+| Closes the current pane.
+
+| `Ctrl-b [`
+| Enters scroll mode to navigate pane output.
+
+| `q`
+| Exits scroll mode.
+
+| `Ctrl-b [`
+| Copies text from the pane output.
+
+| `Ctrl-b ]`
+| Pastes copied text.
+
+| `Ctrl-b ?`
+| Displays a list of available tmux shortcuts.
+|===
