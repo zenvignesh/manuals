@@ -76,3 +76,24 @@ Example: `tmux attach-session -t mysession` or `tmux attach-session -t 0` (if th
 | `Ctrl-b ?`
 | Displays a list of available tmux shortcuts.
 |===
+
+== Key binding mapping
+
+Step 1: To create tmux config file.
+`vim ~/.tmux.conf`
+
+Step 2: To bind keys for detaching and attaching
+
+----
+# Detach current session
+bind-key d detach-client
+
+# Attach to the next session
+bind-key n switch-client -n
+----
+
+Step 3: To apply changes 
+`tmux source-file ~/.tmux.conf`
+
+
+
