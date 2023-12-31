@@ -6,15 +6,15 @@
 
 === Create a new tmux session
 
-tmux new-session -s session_name
+`tmux new-session -s session_name`
 
 === Detach a session
 
-Ctrl-b d
+`Ctrl-b d`
 
 === Attach a session
 
-Example: tmux attach-session -t mysession or tmux attach-session -t 0 (if the session identifier is 0).
+Example: `tmux attach-session -t mysession` or `tmux attach-session -t 0` (if the session identifier is 0).
 
 
 == tmux Frequently Used Commands
