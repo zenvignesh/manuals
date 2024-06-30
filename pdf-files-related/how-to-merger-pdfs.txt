@@ -1,0 +1,5 @@
+https://askubuntu.com/questions/2799/how-to-merge-several-pdf-files
+
+pdftk file1.pdf file2.pdf cat output mergedfile.pdf
+
+sudo apt install pdftk-java
