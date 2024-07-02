@@ -1,0 +1,7 @@
+= Shell specific 
+
+== How to resume stopped prosses in shell?
+
+fg in shell 
+
+link: https://stackoverflow.com/questions/26600326/how-to-restart-some-progress-which-is-stopped-by-ctrlz

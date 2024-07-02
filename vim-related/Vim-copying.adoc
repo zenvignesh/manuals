@@ -1,0 +1,7 @@
+= Vim copying
+
+== How to copy the whole file contents in to system clip board?
+
+:%y+
+
+https://stackoverflow.com/questions/1620018/copy-all-the-lines-to-clipboard
